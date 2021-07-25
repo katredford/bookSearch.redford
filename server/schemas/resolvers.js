@@ -4,7 +4,7 @@ const resolvers = {
 	Query: {
 		me: () => {
 			if (context.user) {
-				const userData = await User.findOne({ _id: context.user._id }).select(
+				const userData = User.findOne({ _id: context.user._id }).select(
 					"-__v -password"
 				);
 
