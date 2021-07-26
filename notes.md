@@ -10,3 +10,9 @@ npm run watch
 REACT:
 
 npx create-react-app client
+
+username: 'ramble',
+[0] email: 'trandle@email.com',
+[0] password: 'password4'
+
+server : npm install jsonwebtoken
